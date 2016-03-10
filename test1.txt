@@ -1,4 +1,5 @@
 function TXMLSafetyFactor.Get_Gamma_M0: Single;
 begin
   Result := SafeConvert(ChildNodes['gamma_M0'].NodeValue);
-end;
+  caption:='Hello World!';
+  end;
